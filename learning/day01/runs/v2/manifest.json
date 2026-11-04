@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "source_id": "srcA",
+    "timestamp": 0.5,
+    "status": "matched",
+    "label": "active",
+    "trainable": true
+  },
+  {
+    "id": 2,
+    "source_id": "srcA",
+    "timestamp": 1.0,
+    "status": "no_positive",
+    "label": "none",
+    "trainable": true
+  },
+  {
+    "id": 3,
+    "source_id": "srcA",
+    "timestamp": 1.5,
+    "status": "unmatched",
+    "label": "active",
+    "trainable": false
+  },
+  {
+    "id": 4,
+    "source_id": "srcA",
+    "timestamp": 2.0,
+    "status": "no_box",
+    "label": "active",
+    "trainable": false
+  },
+  {
+    "id": 5,
+    "source_id": "srcB",
+    "timestamp": 0.5,
+    "status": "matched",
+    "label": "passive",
+    "trainable": true
+  },
+  {
+    "id": 6,
+    "source_id": "srcB",
+    "timestamp": 1.0,
+    "status": "outside_window",
+    "label": "passive",
+    "trainable": false
+  },
+  {
+    "id": 7,
+    "source_id": "srcB",
+    "timestamp": 1.5,
+    "status": "no_generator_result",
+    "label": "unknown",
+    "trainable": false
+  },
+  {
+    "id": 8,
+    "source_id": "srcB",
+    "timestamp": 2.0,
+    "status": "no_positive",
+    "label": "none",
+    "trainable": true
+  }
+]

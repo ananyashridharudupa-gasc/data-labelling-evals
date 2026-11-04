@@ -1,0 +1,9 @@
+id,source_id,timestamp,status,label,trainable
+1,srcA,0.5,matched,active,True
+2,srcA,1.0,no_positive,none,True
+3,srcA,1.5,unmatched,active,False
+4,srcA,2.0,no_box,active,False
+5,srcB,0.5,matched,passive,True
+6,srcB,1.0,outside_window,passive,False
+7,srcB,1.5,no_generator_result,unknown,False
+8,srcB,2.0,no_positive,none,True

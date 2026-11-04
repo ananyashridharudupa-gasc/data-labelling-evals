@@ -1,0 +1,8 @@
+id=1 source_id=srcA timestamp=0.5 status=matched label=active
+id=2 source_id=srcA timestamp=1.0 status=no_positive label=none
+id=3 source_id=srcA timestamp=1.5 status=unmatched label=active
+id=4 source_id=srcA timestamp=2.0 status=no_box label=active
+id=5 source_id=srcB timestamp=0.5 status=matched label=passive
+id=6 source_id=srcB timestamp=1.0 status=outside_window label=passive
+id=7 source_id=srcB timestamp=1.5 status=no_generator_result label=unknown
+id=8 source_id=srcB timestamp=2.0 status=no_positive label=none

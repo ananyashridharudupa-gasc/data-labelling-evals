@@ -1,0 +1,7 @@
+path: D:/Data Labelling and Evals/learning/day01/runs/v1
+train: train.txt
+val: val.txt
+names:
+  0: passive
+  1: active
+trainable_ids: [1, 2, 5, 8]
