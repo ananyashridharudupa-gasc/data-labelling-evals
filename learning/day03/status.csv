@@ -1,0 +1,4 @@
+id,iou,status,trainable
+a,1.0,matched,True
+b,0.14285714285714285,unmatched,False
+c,,no_positive,True
