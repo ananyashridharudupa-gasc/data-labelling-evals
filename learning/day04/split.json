@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "order": [
+    "src07",
+    "src03",
+    "src02",
+    "src08",
+    "src05",
+    "src06",
+    "src09",
+    "src04",
+    "src00",
+    "src01"
+  ],
+  "train": [
+    "src00",
+    "src01",
+    "src02",
+    "src04",
+    "src05",
+    "src06",
+    "src08",
+    "src09"
+  ],
+  "val": [
+    "src03",
+    "src07"
+  ]
+}

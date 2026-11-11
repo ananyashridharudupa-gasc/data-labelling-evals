@@ -136,3 +136,31 @@ Then convert that line back to xyxy and show the arithmetic.
 correctly recovered (10, 20, 50, 60). Round trip worked.
 
 **Key takeaway:** YOLO stores center + size normalized, not corners.
+
+
+## Block B — Day 4
+
+**Prompt:** 16 passive, 4 active, model predicts all passive.
+Give accuracy, active precision, active recall.
+Which number to refuse and why?
+
+**Reply verdict:** Strong — accuracy 0.80, recall 0, 
+precision undefined. Refuse accuracy because dataset is 
+imbalanced and model never finds the active player.
+
+## Task 5 — mAP question
+
+**Prompt:** Product question is: did we mark the correct player 
+as active? mAP50-95 = 0.72. What can it tell me and what can't 
+it, if the candidate box was already given?
+
+**Reply verdict:** Strong — mAP measures box detection quality, 
+not whether the correct player was selected. When the box is 
+already provided, mAP mostly confirms the model agreed with 
+a box it was handed.
+
+**Sentence to reuse on Day 13:**
+Do not use mAP50-95 as evidence that your product correctly 
+identifies the active player — it measures detection quality, 
+not the correctness of the active-player decision when the 
+candidate box is already supplied.

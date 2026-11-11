@@ -1,0 +1,30 @@
+{
+  "val_frames": [
+    "src02-f01",
+    "src00-f03",
+    "src02-f02",
+    "src09-f00",
+    "src06-f01",
+    "src06-f00"
+  ],
+  "leftovers_still_available_to_train": {
+    "src00": [
+      "src00-f00",
+      "src00-f01",
+      "src00-f02"
+    ],
+    "src02": [
+      "src02-f00",
+      "src02-f03"
+    ],
+    "src06": [
+      "src06-f02",
+      "src06-f03"
+    ],
+    "src09": [
+      "src09-f01",
+      "src09-f02",
+      "src09-f03"
+    ]
+  }
+}
